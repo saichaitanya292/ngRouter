@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ngRouter';
+  title = 'App';
+  public nearmealert()
+  {
+    alert("showphotos near me")
+  }
+  public nearmealerthome()
+  {
+    alert("Thanks for visiting photos of your area")
+  }
 }
+
