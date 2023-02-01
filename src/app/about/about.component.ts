@@ -17,6 +17,8 @@ export class AboutComponent implements OnInit {
     this.subscribeToObservable();
     this.subscribeToObservablenum();
   }
+
+  
   private subscribeToObservable() {
       this.clickObservable.subscribe(() => { 
       console.log(`The dom has been clicked!`);

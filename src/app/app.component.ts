@@ -15,5 +15,6 @@ export class AppComponent {
   {
     alert("Thanks for visiting photos of your area")
   }
+  
 }
 
